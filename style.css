@@ -1,0 +1,42 @@
+body{
+    background:linear-gradient(135ddeg, #1e1e2f, #111119);
+    color: white;
+    font-family: 'arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.card{
+background-color: aqua;
+padding: 30px;
+border-radius: 20px;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.1);
+text-align: center;
+box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+
+}
+h1{color: #002dff; font-size: 2.5rem;}
+.skill span{
+    background: #333;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #002dff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.btn:hover{background: #1e1e2f; transform: scale(1.1);}
