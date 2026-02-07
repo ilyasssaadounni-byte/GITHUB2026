@@ -7,6 +7,10 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
     
 }
 .card{
@@ -40,3 +44,22 @@ h1{color: #002dff; font-size: 2.5rem;}
 
 }
 .btn:hover{background: #1e1e2f; transform: scale(1.1);}
+.container{
+    text-align: center;
+    padding: 20px;
+    background: right;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.skills span{
+    background: #007bff;
+    color: #000;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: 0.4s;
+
+}
+.skills span:hover{
+    background: #0056b3;
+    color: #0f0f1a;
+}
